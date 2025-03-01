@@ -1,2 +1,2 @@
 # JavaScript
-made with JS
+JS Journey
