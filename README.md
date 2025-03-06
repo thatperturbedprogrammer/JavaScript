@@ -1,2 +1,2 @@
 # JavaScript
-JS Journey
+｡🇯‌🇸‌ Journey
