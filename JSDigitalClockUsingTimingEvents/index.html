@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+</head>
+
+<body>
+    <div id="clock-container"></div>
+
+    <script>
+
+        setInterval(timeCalculator, 1000)
+        function timeCalculator() {
+            const d = new Date();
+            const timeString = d.toLocaleString();
+
+            document.getElementById("clock-container").textContent = timeString;
+        }
+    </script>
+</body>
+
+</html>
